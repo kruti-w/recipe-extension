@@ -1,0 +1,14 @@
+{
+    "name": "Recipe Extension",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "A Chrome extension for saving recipes and doing quick lookups for ingredients",
+    "permissions": ["activeTab", "storage"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
+
